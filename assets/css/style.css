@@ -58,6 +58,10 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
 }
+nav ul {
+  display:flex;
+  list-style-type: none;
+}
 
 nav a {
   text-decoration: none;
@@ -70,6 +74,8 @@ nav a {
   background-position: bottom;
   transition: all 0.25s ease-in;
   font-size: 1.4rem;
+  display:block;
+  text-align: center;
 }
 
 nav a:hover {
@@ -217,6 +223,11 @@ main {
 .contact address a:hover {
   background-size: 100% 88%;
   color: var(--secondary);
+}
+
+#contact a {
+background-color: none;
+  color: var(--tertiary);
 }
 
 /* portfolio project images */
